@@ -1,0 +1,65 @@
+.navbar{
+     background-color: rgba(0, 0, 0, 0.6);
+     color: black;
+}
+.parallax{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.parallax img{
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+}
+@media screen and (min-width:200px) and (max-width:850px)  {
+     .parallax img{
+          width: 100%;
+     }
+     #tree2{
+          display: none;
+          bottom: 0;
+     }
+  
+     .parallax h1{
+          position: absolute;
+          left: -390px;   
+    
+     }
+      #plants{
+          position: relative;
+          bottom: -260px;
+     } 
+     #tree1{
+       position: absolute;
+       bottom: -58px;
+     } 
+     #man{
+          position: absolute;
+          left: 165px;
+          width: 80%;
+          bottom: -59px;
+     }
+     #monutain1{
+          position: absolute;
+          bottom: -10px;
+     }
+}
+#text{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-60%);
+     font-size: 3rem;
+}
+.sec p{
+     opacity: 0.7;
+}
+.sec{
+     position: absolute;
+     background-color: #112434;
+     color: aliceblue;
+     padding: 10px;
+
+}
